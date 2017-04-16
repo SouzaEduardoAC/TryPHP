@@ -10,24 +10,16 @@
          # Date: 16/04/17
          // Time: 19:04
 
-    echo "<p>Data processed</p>";
+        $usersName = $_POST['username'];
+        $streetAddress = $_POST['streetaddress'];
+        $cityAddress = $_POST['cityAddress'];
 
-    date_default_timezone_set('UTC');
-
-    /* Echos the date
-            h : 12 hr format
-            H : 24 hr format
-            i : Minutes
-            s : Seconds
-            u : Microseconds
-            a : Lowercase am or pm
-            l : Full text for the day
-            F : Full text for the month
-            j : Day of the month
-            S : Suffix for the day st, nd, rd, etc
-            Y : 4 digit y */
-
-    echo date('h:i:s:u a, l F jS Y e');
+        a. Integer : Whole Numbers
+        b. Float : Decimal Numbers
+        c. String : Strings or characters
+        d. Boolean : true or false
+        e. Array : Multiple Items
+        f. Object : A Object defined by a class
     ?>
 </body>
 </html>
