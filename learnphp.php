@@ -12,14 +12,10 @@
 
         $usersName = $_POST['username'];
         $streetAddress = $_POST['streetaddress'];
-        $cityAddress = $_POST['cityAddress'];
+        $cityAddress = $_POST['cityaddress'];
 
-        a. Integer : Whole Numbers
-        b. Float : Decimal Numbers
-        c. String : Strings or characters
-        d. Boolean : true or false
-        e. Array : Multiple Items
-        f. Object : A Object defined by a class
+        define('PI', 3.1415926);
+        echo "The value of PI is " . PI;
     ?>
 </body>
 </html>
